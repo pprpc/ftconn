@@ -1,0 +1,17 @@
+[Unit]
+Description=p2p-ms Service
+After=storage.service
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/media/fdiot/tools/env.conf
+WorkingDirectory=/media/fdiot/p2p-ms/bin
+ExecStart=/media/fdiot/p2p-ms/bin/p2p-ms -ipaddr ${etcdsrv} -region ${region} -i ${devname}
+
+#Restart=on-success
+Restart=on-failure
+RestartSec=6s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+{
+    "max_session": 10000
+    ,"relay":{
+        "wan_ip":""
+        ,"wan_port": [80,443]
+    }
+    ,"micros":[{
+        "name": "authuser"
+        ,"uris": ["tcp://127.0.0.1:6004"]
+    },{
+        "name": "authdevice"
+        ,"uris": ["tcp://192.168.6.217:6000"]
+    }]
+}

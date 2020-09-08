@@ -1,0 +1,19 @@
+[{
+    "uri": "udp://0.0.0.0:3478"
+    ,"read_timeout": 270
+    ,"tls_crt": ""
+    ,"tls_key": ""
+    ,"res_id": 10
+},{
+    "uri": "udp://0.0.0.0:1992"
+    ,"read_timeout": 28
+    ,"tls_crt": ""
+    ,"tls_key": ""
+    ,"res_id": 10
+},{
+    "uri": "udp://0.0.0.0:53"
+    ,"read_timeout": 28
+    ,"tls_crt": ""
+    ,"tls_key": ""
+    ,"res_id": 10
+}]

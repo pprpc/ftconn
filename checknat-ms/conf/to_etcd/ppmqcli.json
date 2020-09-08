@@ -1,0 +1,8 @@
+[{
+    "class": "localmqd"
+    ,"url": "tcp://localhost:8053"
+    ,"account": "FDlocalmqd-checknat"
+    ,"password": "2399ee1cd21036b74ec4c9961d1d1cbb"
+    ,"hw_feature": "checknat"
+    ,"topic_prefix": "/notify/nat/"
+}]

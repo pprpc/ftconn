@@ -1,0 +1,72 @@
+{
+    "public":{
+        "report_interval": 60
+        ,"max_go": 100000
+        ,"admin_prof" : true
+        ,"admin_port": 2345
+    }
+    ,"listen":[{
+        "uri": "tcp://0.0.0.0:80"
+        ,"read_timeout": 28
+        ,"tls_crt": ""
+        ,"tls_key": ""
+        ,"res_id": 9
+    }
+    ,{
+        "uri": "udp://0.0.0.0:80"
+        ,"read_timeout": 28
+        ,"tls_crt": ""
+        ,"tls_key": ""
+        ,"res_id": 9
+    },{
+        "uri": "tcp://0.0.0.0:443"
+        ,"read_timeout": 28
+        ,"tls_crt": ""
+        ,"tls_key": ""
+        ,"res_id": 9
+    }]
+    ,"log":{
+        "file": "/var/log/xciot/relay-ms.log"
+        ,"max_size": 2
+        ,"max_backups": 25
+        ,"max_age": 2
+        ,"caller": true
+        ,"level": -1
+    }
+    ,"ppmqclis":[{
+        "class": "localmqd"
+        ,"url": "tcp://localhost:1053"
+        ,"account": "PPdevice2"
+        ,"password": "13eca6676a345053d691f24128c8aa8d"
+        ,"hw_feature": "58:54:00:7f:ca:df1"
+    }]
+    ,"dbs":[{
+        "conf_name": "ftconn"
+        ,"type": "mysql"
+        ,"user": "root"
+        ,"pass": "binwen"
+        ,"name": "ftconn"
+        ,"host": "localhost"
+        ,"port": 3306
+        ,"charset": "utf8"
+        ,"socket": "/var/lib/mysql/mysql.sock"
+        ,"debug": true
+        ,"max_idle": 4
+        ,"max_conn": 4
+        ,"db_file": "file:test.db?cache=shared&mode=memory"
+    }]
+    ,"private_config":{
+        "max_session": 1000000
+        ,"relay":{
+            "wan_ip":""
+            ,"wan_port": [80,443]
+        }
+        ,"micros":[{
+            "name": "authuser"
+            ,"uris": ["tcp://127.0.0.1:6004"]
+        },{
+            "name": "authdevice"
+            ,"uris": ["tcp://192.168.6.217:6000"]
+        }]
+    }
+}

@@ -1,0 +1,6 @@
+*.sh
+pkg/
+bin/*
+*.tar.*
+test/
+*.DS_Store

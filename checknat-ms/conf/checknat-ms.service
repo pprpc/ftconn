@@ -1,0 +1,17 @@
+[Unit]
+Description=checknat-ms Service
+After=storage.service
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/media/fdiot/tools/env.conf
+WorkingDirectory=/media/fdiot/checknat-ms/bin
+ExecStart=/media/fdiot/checknat-ms/bin/checknat-ms -ipaddr ${etcdsrv} -region ${region} -i ${devname}
+
+#Restart=on-success
+Restart=on-failure
+RestartSec=6s
+
+[Install]
+WantedBy=multi-user.target

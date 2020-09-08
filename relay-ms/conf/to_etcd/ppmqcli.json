@@ -1,0 +1,7 @@
+[{
+    "class": "ppmqd"
+    ,"url": "tcp://localhost:1053"
+    ,"account": "PPftconnrelay"
+    ,"password": "8899ee1cd21036b74ec4c9961d1d1cww"
+    ,"hw_feature": "relay"
+}]

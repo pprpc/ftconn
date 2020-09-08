@@ -1,0 +1,14 @@
+{
+    "max_session": 1000000
+    ,"p2p":{
+        "wan_ip":""
+        ,"wan_port": 1992
+    }
+    ,"micros":[{
+        "name": "authuser"
+        ,"uris": ["tcp://127.0.0.1:6004"]
+    },{
+        "name": "authdevice"
+        ,"uris": ["tcp://192.168.6.217:6000"]
+    }]
+}

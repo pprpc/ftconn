@@ -1,0 +1,12 @@
+{
+    "file": "/var/log/fdiot/p2p/p2p-ms.log"
+    ,"max_size": 2
+    ,"max_backups": 25
+    ,"max_age": 2
+    ,"caller": true
+    ,"level": -1
+    ,"seelog_port": 21904
+    ,"seelog_user": "fd"
+    ,"seelog_pass": "fd2018"
+    ,"log_dir": "/var/log/fdiot/p2p/"
+}

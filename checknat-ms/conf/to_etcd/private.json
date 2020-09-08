@@ -1,0 +1,16 @@
+{
+    "max_session": 1000000
+    ,"encrypt": 0
+    ,"nat":{
+        "port1": 1990
+        ,"port2": 1991
+        ,"ipaddr2": "54.177.57.218"
+    }
+    ,"micros":[{
+        "name": "authuser"
+        ,"uris": ["tcp://127.0.0.1:6004"]
+    },{
+        "name": "authdevice"
+        ,"uris": ["tcp://192.168.6.217:6000"]
+    }]
+}

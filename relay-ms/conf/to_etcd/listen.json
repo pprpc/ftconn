@@ -1,0 +1,19 @@
+[{
+    "uri": "tcp://0.0.0.0:1992"
+    ,"read_timeout": 28
+    ,"tls_crt": ""
+    ,"tls_key": ""
+    ,"res_id": 9
+},{
+    "uri": "tcp://0.0.0.0:3478"
+    ,"read_timeout": 28
+    ,"tls_crt": ""
+    ,"tls_key": ""
+    ,"res_id": 9
+},{
+    "uri": "tcp://0.0.0.0:443"
+    ,"read_timeout": 28
+    ,"tls_crt": ""
+    ,"tls_key": ""
+    ,"res_id": 9
+}]

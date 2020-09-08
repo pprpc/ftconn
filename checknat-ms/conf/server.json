@@ -1,0 +1,74 @@
+{
+    "public":{
+        "report_interval": 60
+        ,"max_go": 100000
+        ,"admin_prof" : true
+        ,"admin_port": 2345
+        ,"server_id": "127.0.0.1"
+    }
+    ,"listen":[{
+        "uri": "udp://0.0.0.0:1900"
+        ,"read_timeout": 8
+        ,"tls_crt": ""
+        ,"tls_key": ""
+        ,"res_id": 8
+    },{
+        "uri": "udp://0.0.0.0:1901"
+        ,"read_timeout": 8
+        ,"tls_crt": ""
+        ,"tls_key": ""
+        ,"res_id": 8
+    },{
+        "uri": "tcp://0.0.0.0:1900"
+        ,"read_timeout": 8
+        ,"tls_crt": ""
+        ,"tls_key": ""
+        ,"res_id": 0
+    }]
+    ,"ppmqclis":[{
+        "class": "localmqd"
+        ,"url": "tcp://localhost:8053"
+        ,"account": "PPdevice2"
+        ,"password": "13eca6676a345053d691f24128c8aa8d"
+        ,"hw_feature": "52:54:00:7f:ca:df"
+        ,"topic_prefix": "/notify/nat/"
+    }]
+    ,"log":{
+        "file": "/var/log/xciot/nat-ms.log"
+        ,"max_size": 2
+        ,"max_backups": 25
+        ,"max_age": 2
+        ,"caller": true
+        ,"level": -1
+    }
+    ,"dbs":[{
+        "conf_name": "ftconn"
+        ,"type": "mysql"
+        ,"user": "root"
+        ,"pass": "binwen"
+        ,"name": "ftconn"
+        ,"host": "localhost"
+        ,"port": 3306
+        ,"charset": "utf8"
+        ,"socket": "/var/lib/mysql/mysql.sock"
+        ,"debug": true
+        ,"max_idle": 4
+        ,"max_conn": 4
+    }]
+    ,"private_config":{
+        "max_session": 1000000
+        ,"encrypt": 0
+        ,"nat":{
+            "port1": 1900
+            ,"port2": 1901
+            ,"ipaddr2": "1.1.1.1"
+        }
+        ,"micros":[{
+            "name": "authuser"
+            ,"uris": ["tcp://127.0.0.1:6004"]
+        },{
+            "name": "authdevice"
+            ,"uris": ["tcp://192.168.6.217:6000"]
+        }]
+    }
+}
