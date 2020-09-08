@@ -7,7 +7,7 @@ import (
 	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 
-	l "xcthings.com/ftconn/checknat-ms/logic"
+	l "github.com/pprpc/ftconn/checknat-ms/logic"
 )
 
 // NatProbeer .

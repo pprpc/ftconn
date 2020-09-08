@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	g "xcthings.com/ftconn/relay-ms/common/global"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/pprpcpool"
 	"xcthings.com/micro/svc"

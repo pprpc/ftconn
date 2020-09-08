@@ -5,7 +5,7 @@ import (
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	m "xcthings.com/ftconn/p2p-ms/model"
+	m "github.com/pprpc/ftconn/p2p-ms/model"
 )
 
 // LP2PStepThree P2PStepThree Business logic

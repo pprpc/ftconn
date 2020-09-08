@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	g "xcthings.com/ftconn/relay-ms/common/global"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
 	"github.com/pprpc/util/logs"
 	xcpprof "github.com/pprpc/util/pprof"
 )

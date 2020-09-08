@@ -5,7 +5,7 @@ import (
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	m "xcthings.com/ftconn/relay-ms/model"
+	m "github.com/pprpc/ftconn/relay-ms/model"
 )
 
 // LRelayStepThree RelayStepThree Business logic

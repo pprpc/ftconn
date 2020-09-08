@@ -13,9 +13,9 @@ import (
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 	"xcthings.com/protoc/ftconnnat/ReportNat"
 
-	lc "xcthings.com/ftconn/checknat-ms/common"
-	g "xcthings.com/ftconn/checknat-ms/common/global"
-	l "xcthings.com/ftconn/checknat-ms/logic"
+	lc "github.com/pprpc/ftconn/checknat-ms/common"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
+	l "github.com/pprpc/ftconn/checknat-ms/logic"
 )
 
 // ReportNater .

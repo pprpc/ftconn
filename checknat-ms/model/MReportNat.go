@@ -2,8 +2,8 @@ package model
 
 import (
 	"github.com/pprpc/util/common"
-	lc "xcthings.com/ftconn/checknat-ms/common"
-	"xcthings.com/ftconn/model/ftconn"
+	lc "github.com/pprpc/ftconn/checknat-ms/common"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnnat/ReportNat"
 	"github.com/pprpc/core"
 )

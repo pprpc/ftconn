@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"xcthings.com/ftconn/p2p-ms/common/app"
-	g "xcthings.com/ftconn/p2p-ms/common/global"
+	"github.com/pprpc/ftconn/p2p-ms/common/app"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 )

@@ -11,9 +11,9 @@ import (
 	"xcthings.com/protoc/ftconnp2p/P2PStepThree"
 	"xcthings.com/protoc/ftconnp2p/P2PStepTwo"
 
-	g "xcthings.com/ftconn/p2p-ms/common/global"
-	l "xcthings.com/ftconn/p2p-ms/logic"
-	m "xcthings.com/ftconn/p2p-ms/model"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
+	l "github.com/pprpc/ftconn/p2p-ms/logic"
+	m "github.com/pprpc/ftconn/p2p-ms/model"
 )
 
 // P2PStepTwoer .

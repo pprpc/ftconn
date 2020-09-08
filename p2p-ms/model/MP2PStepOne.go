@@ -3,8 +3,8 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/ftconn/model/ftconn"
-	g "xcthings.com/ftconn/p2p-ms/common/global"
+	"github.com/pprpc/ftconn/model/ftconn"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/crypto"
 	"github.com/pprpc/util/logs"

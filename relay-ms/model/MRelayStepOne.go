@@ -5,8 +5,8 @@ import (
 
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/crypto"
-	g "xcthings.com/ftconn/relay-ms/common/global"
-	"xcthings.com/ftconn/model/ftconn"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnrelay/RelayStepOne"
 )
 

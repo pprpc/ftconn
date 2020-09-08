@@ -3,7 +3,7 @@ package ftconn
 import (
 	"fmt"
 
-	errc "xcthings.com/ftconn/common/errorcode"
+	errc "github.com/pprpc/ftconn/common/errorcode"
 )
 
 // P2pinfo table name p2pinfo struct define

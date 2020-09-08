@@ -3,7 +3,7 @@ package ftconn
 import (
 	"fmt"
 
-	errc "xcthings.com/ftconn/common/errorcode"
+	errc "github.com/pprpc/ftconn/common/errorcode"
 )
 
 // Relayinfo table name relayinfo struct define

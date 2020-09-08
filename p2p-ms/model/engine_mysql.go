@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/ftconn/model/ftconn"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"xcthings.com/micro/svc"
 )
 

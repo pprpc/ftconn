@@ -4,13 +4,13 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/common"
-	errc "xcthings.com/ftconn/common/errorcode"
+	errc "github.com/pprpc/ftconn/common/errorcode"
 	"xcthings.com/protoc/ftconnnat/NatTest2"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	lc "xcthings.com/ftconn/checknat-ms/common"
-	m "xcthings.com/ftconn/checknat-ms/model"
+	lc "github.com/pprpc/ftconn/checknat-ms/common"
+	m "github.com/pprpc/ftconn/checknat-ms/model"
 )
 
 // LNatTest2 NatTest2 Business logic

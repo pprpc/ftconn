@@ -9,8 +9,8 @@ import (
 	"xcthings.com/protoc/ftconnp2p/NotifyConn"
 	"xcthings.com/protoc/ftconnp2p/P2PStepOne"
 
-	g "xcthings.com/ftconn/p2p-ms/common/global"
-	l "xcthings.com/ftconn/p2p-ms/logic"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
+	l "github.com/pprpc/ftconn/p2p-ms/logic"
 )
 
 // P2PStepOneer .

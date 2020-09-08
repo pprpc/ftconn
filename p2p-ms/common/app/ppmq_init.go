@@ -8,7 +8,7 @@ import (
 	"xcthings.com/ppmq/ppmqcli/msg"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core/packets"
-	g "xcthings.com/ftconn/p2p-ms/common/global"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
 )
 
 func initPPMQCli() (err error) {

@@ -1,12 +1,12 @@
 package app
 
 import (
-	g "xcthings.com/ftconn/p2p-ms/common/global"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
 	"xcthings.com/protoc/ftconnp2p/P2PStepOne"
 	"xcthings.com/protoc/ftconnp2p/P2PStepThree"
 	"xcthings.com/protoc/ftconnp2p/P2PStepTwo"
 
-	ctrl "xcthings.com/ftconn/p2p-ms/controller"
+	ctrl "github.com/pprpc/ftconn/p2p-ms/controller"
 )
 
 func regService() {

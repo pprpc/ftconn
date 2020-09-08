@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"go.uber.org/zap/zapcore"
-	g "xcthings.com/ftconn/p2p-ms/common/global"
-	"xcthings.com/ftconn/p2p-ms/model"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
+	"github.com/pprpc/ftconn/p2p-ms/model"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"

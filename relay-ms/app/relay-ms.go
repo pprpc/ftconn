@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"xcthings.com/ftconn/relay-ms/common/app"
-	g "xcthings.com/ftconn/relay-ms/common/global"
+	"github.com/pprpc/ftconn/relay-ms/common/app"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 )

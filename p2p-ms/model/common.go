@@ -1,6 +1,6 @@
 package model
 
-import "xcthings.com/ftconn/model/ftconn"
+import "github.com/pprpc/ftconn/model/ftconn"
 
 // GetP2pinfoBySessionKey .
 func GetP2pinfoBySessionKey(sk string) (srvPort, uPort int32, uIP string, err error) {

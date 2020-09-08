@@ -7,9 +7,9 @@ import (
 	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnrelay/RelayStepOne"
 
-	errc "xcthings.com/ftconn/common/errorcode"
-	lc "xcthings.com/ftconn/relay-ms/common"
-	m "xcthings.com/ftconn/relay-ms/model"
+	errc "github.com/pprpc/ftconn/common/errorcode"
+	lc "github.com/pprpc/ftconn/relay-ms/common"
+	m "github.com/pprpc/ftconn/relay-ms/model"
 )
 
 // LRelayStepOne RelayStepOne Business logic

@@ -1,13 +1,13 @@
 package app
 
 import (
-	g "xcthings.com/ftconn/checknat-ms/common/global"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 	"xcthings.com/protoc/ftconnnat/NatTest1"
 	"xcthings.com/protoc/ftconnnat/NatTest2"
 	"xcthings.com/protoc/ftconnnat/ReportNat"
 
-	ctrl "xcthings.com/ftconn/checknat-ms/controller"
+	ctrl "github.com/pprpc/ftconn/checknat-ms/controller"
 )
 
 func regService() {

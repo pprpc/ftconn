@@ -3,15 +3,15 @@ package logic
 import (
 	"fmt"
 
-	"xcthings.com/ftconn/model/ftconn"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnp2p/P2PStepTwo"
 
-	errc "xcthings.com/ftconn/common/errorcode"
-	lc "xcthings.com/ftconn/p2p-ms/common"
-	m "xcthings.com/ftconn/p2p-ms/model"
+	errc "github.com/pprpc/ftconn/common/errorcode"
+	lc "github.com/pprpc/ftconn/p2p-ms/common"
+	m "github.com/pprpc/ftconn/p2p-ms/model"
 )
 
 // LP2PStepTwo P2PStepTwo Business logic

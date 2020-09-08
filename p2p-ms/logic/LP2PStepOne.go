@@ -7,9 +7,9 @@ import (
 	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnp2p/P2PStepOne"
 
-	errc "xcthings.com/ftconn/common/errorcode"
-	lc "xcthings.com/ftconn/p2p-ms/common"
-	m "xcthings.com/ftconn/p2p-ms/model"
+	errc "github.com/pprpc/ftconn/common/errorcode"
+	lc "github.com/pprpc/ftconn/p2p-ms/common"
+	m "github.com/pprpc/ftconn/p2p-ms/model"
 )
 
 // LP2PStepOne P2PStepOne Business logic

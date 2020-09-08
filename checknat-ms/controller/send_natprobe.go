@@ -12,7 +12,7 @@ import (
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 	"xcthings.com/protoc/ftconnnat/ProbeConfig"
 
-	g "xcthings.com/ftconn/checknat-ms/common/global"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
 )
 
 // SendNatProbe  .

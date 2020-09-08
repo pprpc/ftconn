@@ -3,15 +3,15 @@ package logic
 import (
 	"fmt"
 
-	errc "xcthings.com/ftconn/common/errorcode"
-	"xcthings.com/ftconn/model/ftconn"
+	errc "github.com/pprpc/ftconn/common/errorcode"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnrelay/RelayStepTwo"
 
-	lc "xcthings.com/ftconn/relay-ms/common"
-	m "xcthings.com/ftconn/relay-ms/model"
+	lc "github.com/pprpc/ftconn/relay-ms/common"
+	m "github.com/pprpc/ftconn/relay-ms/model"
 )
 
 // LRelayStepTwo RelayStepTwo Business logic

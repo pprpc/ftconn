@@ -3,7 +3,7 @@ package common
 import (
 	"context"
 
-	g "xcthings.com/ftconn/p2p-ms/common/global"
+	g "github.com/pprpc/ftconn/p2p-ms/common/global"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/protoc/authdevice/CheckDevice"
 	"xcthings.com/protoc/authuser/CheckUser"

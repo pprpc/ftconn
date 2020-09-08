@@ -12,8 +12,8 @@ import (
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	g "xcthings.com/ftconn/checknat-ms/common/global"
-	l "xcthings.com/ftconn/checknat-ms/logic"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
+	l "github.com/pprpc/ftconn/checknat-ms/logic"
 )
 
 // NatTest1er .

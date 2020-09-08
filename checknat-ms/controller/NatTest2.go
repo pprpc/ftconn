@@ -7,7 +7,7 @@ import (
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	l "xcthings.com/ftconn/checknat-ms/logic"
+	l "github.com/pprpc/ftconn/checknat-ms/logic"
 )
 
 // NatTest2er .

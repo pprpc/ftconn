@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	g "xcthings.com/ftconn/relay-ms/common/global"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"

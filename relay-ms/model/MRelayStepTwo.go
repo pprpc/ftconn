@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/pprpc/util/common"
-	"xcthings.com/ftconn/model/ftconn"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnrelay/RelayStepTwo"
 )
 

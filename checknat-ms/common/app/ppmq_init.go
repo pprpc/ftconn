@@ -3,8 +3,8 @@ package app
 import (
 	"fmt"
 
-	g "xcthings.com/ftconn/checknat-ms/common/global"
-	ctrl "xcthings.com/ftconn/checknat-ms/controller"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
+	ctrl "github.com/pprpc/ftconn/checknat-ms/controller"
 	"github.com/pprpc/util/logs"
 	mqcli "xcthings.com/ppmq/ppmqcli"
 	"xcthings.com/ppmq/ppmqcli/msg"

@@ -3,7 +3,7 @@ package model
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/core"
-	"xcthings.com/ftconn/model/ftconn"
+	"github.com/pprpc/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnp2p/P2PStepTwo"
 )
 

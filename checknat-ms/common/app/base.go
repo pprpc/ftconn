@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	g "xcthings.com/ftconn/checknat-ms/common/global"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/pprpcpool"
 	"xcthings.com/micro/svc"

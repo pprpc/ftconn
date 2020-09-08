@@ -10,8 +10,8 @@ import (
 	"xcthings.com/protoc/ftconnrelay/RelayStepThree"
 	"xcthings.com/protoc/ftconnrelay/RelayStepTwo"
 
-	g "xcthings.com/ftconn/relay-ms/common/global"
-	l "xcthings.com/ftconn/relay-ms/logic"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
+	l "github.com/pprpc/ftconn/relay-ms/logic"
 )
 
 // RelayStepTwoer .

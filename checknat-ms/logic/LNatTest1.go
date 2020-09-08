@@ -9,10 +9,10 @@ import (
 	pc "xcthings.com/protoc/common"
 	"xcthings.com/protoc/ftconnnat/NatTest1"
 
-	lc "xcthings.com/ftconn/checknat-ms/common"
-	g "xcthings.com/ftconn/checknat-ms/common/global"
-	m "xcthings.com/ftconn/checknat-ms/model"
-	errc "xcthings.com/ftconn/common/errorcode"
+	lc "github.com/pprpc/ftconn/checknat-ms/common"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
+	m "github.com/pprpc/ftconn/checknat-ms/model"
+	errc "github.com/pprpc/ftconn/common/errorcode"
 )
 
 // LNatTest1 NatTest1 Business logic

@@ -12,8 +12,8 @@ import (
 
 	pc "xcthings.com/protoc/common"
 
-	g "xcthings.com/ftconn/relay-ms/common/global"
-	l "xcthings.com/ftconn/relay-ms/logic"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
+	l "github.com/pprpc/ftconn/relay-ms/logic"
 )
 
 // RelayStepOneer .

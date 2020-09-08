@@ -9,7 +9,7 @@ import (
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	g "xcthings.com/ftconn/checknat-ms/common/global"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
 )
 
 // UDPInvoke udp invoke sync

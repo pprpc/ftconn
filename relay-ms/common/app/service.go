@@ -1,12 +1,12 @@
 package app
 
 import (
-	g "xcthings.com/ftconn/relay-ms/common/global"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
 	"xcthings.com/protoc/ftconnrelay/RelayStepOne"
 	"xcthings.com/protoc/ftconnrelay/RelayStepThree"
 	"xcthings.com/protoc/ftconnrelay/RelayStepTwo"
 
-	ctrl "xcthings.com/ftconn/relay-ms/controller"
+	ctrl "github.com/pprpc/ftconn/relay-ms/controller"
 )
 
 func regService() {

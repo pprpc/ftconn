@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 
-	g "xcthings.com/ftconn/relay-ms/common/global"
+	g "github.com/pprpc/ftconn/relay-ms/common/global"
 	"github.com/pprpc/util/logs"
 	mqcli "xcthings.com/ppmq/ppmqcli"
 	"xcthings.com/ppmq/ppmqcli/msg"

@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"xcthings.com/ftconn/checknat-ms/common/app"
-	g "xcthings.com/ftconn/checknat-ms/common/global"
+	"github.com/pprpc/ftconn/checknat-ms/common/app"
+	g "github.com/pprpc/ftconn/checknat-ms/common/global"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 )
