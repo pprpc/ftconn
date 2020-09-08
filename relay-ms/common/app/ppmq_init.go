@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	g "xcthings.com/ftconn/relay-ms/common/global"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	mqcli "xcthings.com/ppmq/ppmqcli"
 	"xcthings.com/ppmq/ppmqcli/msg"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core/packets"
 )
 
 func initPPMQCli() (err error) {

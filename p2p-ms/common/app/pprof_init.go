@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	g "xcthings.com/ftconn/p2p-ms/common/global"
-	"xcthings.com/hjyz/logs"
-	xcpprof "xcthings.com/hjyz/pprof"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/util/logs"
+	xcpprof "github.com/pprpc/util/pprof"
+	"github.com/pprpc/core"
 )
 
 var tcplis []*pprpc.RPCTCPServer

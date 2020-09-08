@@ -4,7 +4,7 @@ import (
 	"context"
 
 	g "xcthings.com/ftconn/checknat-ms/common/global"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/protoc/authdevice/CheckDevice"
 	"xcthings.com/protoc/authuser/CheckUser"
 )

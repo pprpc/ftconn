@@ -6,8 +6,8 @@ import (
 	"net"
 
 	"github.com/golang/protobuf/proto"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	g "xcthings.com/ftconn/checknat-ms/common/global"
 )

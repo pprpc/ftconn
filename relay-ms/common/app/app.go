@@ -7,10 +7,10 @@ import (
 	"go.uber.org/zap/zapcore"
 	g "xcthings.com/ftconn/relay-ms/common/global"
 	"xcthings.com/ftconn/relay-ms/model"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	"xcthings.com/pprpc/sess"
+	"github.com/pprpc/core/sess"
 )
 
 // Run start app

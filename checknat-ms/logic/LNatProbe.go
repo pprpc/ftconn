@@ -1,8 +1,8 @@
 package logic
 
 import (
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 
 	m "xcthings.com/ftconn/checknat-ms/model"

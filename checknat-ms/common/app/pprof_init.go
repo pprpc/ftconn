@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	g "xcthings.com/ftconn/checknat-ms/common/global"
-	"xcthings.com/hjyz/logs"
-	xcpprof "xcthings.com/hjyz/pprof"
+	"github.com/pprpc/util/logs"
+	xcpprof "github.com/pprpc/util/pprof"
 )
 
 func pprofInit() {

@@ -7,13 +7,13 @@ import (
 	"strconv"
 
 	g "xcthings.com/ftconn/relay-ms/common/global"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
-	"xcthings.com/pprpc/pptcp"
-	"xcthings.com/pprpc/ppudp"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
+	"github.com/pprpc/core/pptcp"
+	"github.com/pprpc/core/ppudp"
 )
 
 var tcplis []*pprpc.RPCTCPServer

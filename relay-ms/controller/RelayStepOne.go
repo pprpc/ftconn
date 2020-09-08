@@ -3,12 +3,12 @@ package controller
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/protoc/ftconnp2p/NotifyConn"
 	"xcthings.com/protoc/ftconnrelay/RelayStepOne"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	pc "xcthings.com/protoc/common"
 

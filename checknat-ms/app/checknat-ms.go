@@ -6,8 +6,8 @@ import (
 
 	"xcthings.com/ftconn/checknat-ms/common/app"
 	g "xcthings.com/ftconn/checknat-ms/common/global"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 )
 
 var (

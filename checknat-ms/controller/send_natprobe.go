@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
-	"xcthings.com/pprpc/ppudp"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
+	"github.com/pprpc/core/ppudp"
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 	"xcthings.com/protoc/ftconnnat/ProbeConfig"
 

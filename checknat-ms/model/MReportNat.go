@@ -1,11 +1,11 @@
 package model
 
 import (
-	"xcthings.com/hjyz/common"
+	"github.com/pprpc/util/common"
 	lc "xcthings.com/ftconn/checknat-ms/common"
 	"xcthings.com/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnnat/ReportNat"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 // MReportNat ReportNat  

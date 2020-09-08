@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"xcthings.com/ftconn/model/ftconn"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnp2p/P2PStepTwo"
 
 	errc "xcthings.com/ftconn/common/errorcode"

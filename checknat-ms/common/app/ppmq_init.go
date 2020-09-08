@@ -5,12 +5,12 @@ import (
 
 	g "xcthings.com/ftconn/checknat-ms/common/global"
 	ctrl "xcthings.com/ftconn/checknat-ms/controller"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	mqcli "xcthings.com/ppmq/ppmqcli"
 	"xcthings.com/ppmq/ppmqcli/msg"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnnat/ProbeConfig"
 )
 

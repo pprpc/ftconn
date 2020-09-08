@@ -2,8 +2,8 @@ package logic
 
 import (
 	"xcthings.com/protoc/ftconnp2p/P2PStepThree"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	m "xcthings.com/ftconn/p2p-ms/model"
 )

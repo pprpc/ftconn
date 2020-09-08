@@ -7,7 +7,7 @@ import (
 	"time"
 
 	g "xcthings.com/ftconn/p2p-ms/common/global"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/pprpcpool"
 	"xcthings.com/micro/svc"
 	"xcthings.com/protoc/authdevice/CheckDevice"

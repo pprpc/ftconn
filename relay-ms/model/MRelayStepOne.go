@@ -3,8 +3,8 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/crypto"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/crypto"
 	g "xcthings.com/ftconn/relay-ms/common/global"
 	"xcthings.com/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnrelay/RelayStepOne"

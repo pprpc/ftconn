@@ -1,8 +1,8 @@
 package model
 
 import (
-	"xcthings.com/hjyz/common"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/core"
 	"xcthings.com/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnp2p/P2PStepTwo"
 )

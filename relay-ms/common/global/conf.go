@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 )
 

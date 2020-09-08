@@ -1,7 +1,7 @@
 package model
 
 import (
-	"xcthings.com/hjyz/common"
+	"github.com/pprpc/util/common"
 	"xcthings.com/ftconn/model/ftconn"
 	"xcthings.com/protoc/ftconnrelay/RelayStepTwo"
 )

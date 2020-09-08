@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"time"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 	"xcthings.com/protoc/ftconnnat/ReportNat"
 

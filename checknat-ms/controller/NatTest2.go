@@ -1,11 +1,11 @@
 package controller
 
 import (
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/protoc/ftconnnat/NatTest2"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	l "xcthings.com/ftconn/checknat-ms/logic"
 )

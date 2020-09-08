@@ -5,7 +5,7 @@ import (
 	"xcthings.com/micro/svc"
 	"xcthings.com/ppmq/ppmqcli"
 	"xcthings.com/ppmq/ppmqcli/msg"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 // Conf .

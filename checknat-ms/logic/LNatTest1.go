@@ -3,9 +3,9 @@ package logic
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	pc "xcthings.com/protoc/common"
 	"xcthings.com/protoc/ftconnnat/NatTest1"
 

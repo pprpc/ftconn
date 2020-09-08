@@ -2,8 +2,8 @@ package logic
 
 import (
 	"xcthings.com/protoc/ftconnrelay/RelayStepThree"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	m "xcthings.com/ftconn/relay-ms/model"
 )

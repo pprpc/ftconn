@@ -7,8 +7,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	g "xcthings.com/ftconn/p2p-ms/common/global"
 	"xcthings.com/ftconn/p2p-ms/model"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 )
 

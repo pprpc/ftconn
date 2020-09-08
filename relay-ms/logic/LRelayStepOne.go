@@ -3,8 +3,8 @@ package logic
 import (
 	"fmt"
 
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnrelay/RelayStepOne"
 
 	errc "xcthings.com/ftconn/common/errorcode"

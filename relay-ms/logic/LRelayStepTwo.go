@@ -5,9 +5,9 @@ import (
 
 	errc "xcthings.com/ftconn/common/errorcode"
 	"xcthings.com/ftconn/model/ftconn"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/protoc/ftconnrelay/RelayStepTwo"
 
 	lc "xcthings.com/ftconn/relay-ms/common"

@@ -5,8 +5,8 @@ import (
 
 	errc "xcthings.com/ftconn/common/errorcode"
 	"xcthings.com/protoc/ftconnnat/ReportNat"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	lc "xcthings.com/ftconn/checknat-ms/common"
 	m "xcthings.com/ftconn/checknat-ms/model"

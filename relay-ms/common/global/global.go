@@ -5,8 +5,8 @@ import (
 	"xcthings.com/micro/svc"
 	"xcthings.com/ppmq/ppmqcli"
 	"xcthings.com/ppmq/ppmqcli/msg"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/sess"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/sess"
 )
 
 // ConnAttr

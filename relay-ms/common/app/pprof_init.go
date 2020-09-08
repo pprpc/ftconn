@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	g "xcthings.com/ftconn/relay-ms/common/global"
-	"xcthings.com/hjyz/logs"
-	xcpprof "xcthings.com/hjyz/pprof"
+	"github.com/pprpc/util/logs"
+	xcpprof "github.com/pprpc/util/pprof"
 )
 
 func pprofInit() {

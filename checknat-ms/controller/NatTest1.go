@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"net"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/protoc/ftconnnat/NatProbe"
 	"xcthings.com/protoc/ftconnnat/NatTest1"
 	"xcthings.com/protoc/ftconnnat/ProbeConfig"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	g "xcthings.com/ftconn/checknat-ms/common/global"
 	l "xcthings.com/ftconn/checknat-ms/logic"

@@ -7,10 +7,10 @@ import (
 	"strconv"
 
 	g "xcthings.com/ftconn/checknat-ms/common/global"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 )
 
 var tcplis []*pprpc.RPCTCPServer

@@ -5,10 +5,10 @@ import (
 
 	"xcthings.com/ftconn/model/ftconn"
 	g "xcthings.com/ftconn/p2p-ms/common/global"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/crypto"
-	"xcthings.com/hjyz/logs"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/crypto"
+	"github.com/pprpc/util/logs"
+	"github.com/pprpc/core"
 	"xcthings.com/protoc/ftconnp2p/P2PStepOne"
 )
 
